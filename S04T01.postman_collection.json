@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "6e663db3-c7ae-41e3-b41b-61b7c40e7c41",
+		"name": "S04T01",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25697714"
+	},
+	"item": [
+		{
+			"name": "RequestParam",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Servidor}}:{{Port}}/HelloWorld",
+					"host": [
+						"{{Servidor}}"
+					],
+					"port": "{{Port}}",
+					"path": [
+						"HelloWorld"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PathVariable",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Servidor}}:{{Port}}/HelloWorld2",
+					"host": [
+						"{{Servidor}}"
+					],
+					"port": "{{Port}}",
+					"path": [
+						"HelloWorld2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
